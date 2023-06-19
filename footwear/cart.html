@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Footwear</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/lightbox.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link rel="stylesheet" href="css/animate.css">
+
+<script>
+    jQuery(document).ready(function ($) {
+      $(".counter").counterUp({
+        delay: 10,
+        time: 1000,
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="index.html" style="letter-spacing: 1.5px;font-family: 'Pacifico', cursive;">Footwear</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="index.html" style="font-family: 'Righteous', cursive;">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="men.html" style="font-family: 'Righteous', cursive;">MEN</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="women.html" style="font-family: 'Righteous', cursive;">WOMEN</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="about.html" style="font-family: 'Righteous', cursive;">ABOUT</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="contact.html" style="font-family: 'Righteous', cursive;">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="cart.html" style="font-family: 'Righteous', cursive;"><i class="fa-solid fa-cart-shopping fs-5"></i> CART</a>
+                
+            </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-1 w-100" type="search" placeholder="Search for products" aria-label="Search">
+               <!-- <button class="btn btn-outline-success me-1" type="submit">Search</button> -->
+               <button
+               type="button"
+               class="btn btn-danger"
+               data-bs-toggle="modal"
+
+               
+               data-bs-target="#exampleModal"
+               data-bs-placement="bottom"
+               data-bs-title="Please Login To Buy Item"
+             >
+               Login
+             </button>
+
+             <!-- Modal -->
+             <div
+               class="modal fade"
+               id="exampleModal"
+               tabindex="-1"
+               aria-labelledby="exampleModalLabel"
+               aria-hidden="true"
+             >
+               <div class="modal-dialog">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h1
+                       class="modal-title fs-5 ms-auto"
+                       id="exampleModalLabel"
+                     >
+                       Login Here
+                     </h1>
+                     <button
+                       type="button"
+                       class="btn-close"
+                       data-bs-dismiss="modal"
+                       aria-label="Close"
+                     ></button>
+                   </div>
+                   <div class="modal-body">
+                     <form>
+                       <div class="mb-3">
+                         <label for="exampleInputEmail1" class="form-label"
+                           >Email address</label
+                         >
+                         <input
+                           type="email"
+                           class="form-control"
+                           id="exampleInputEmail1"
+                           aria-describedby="emailHelp"
+                         />
+                       </div>
+                       <div class="mb-3">
+                         <label
+                           for="exampleInputPassword1"
+                           class="form-label"
+                           >Password</label
+                         >
+                         <input
+                           type="password"
+                           class="form-control"
+                           id="exampleInputPassword1"
+                         />
+                       </div>
+                       <div class="mb-3">
+                        <button type="button" class="btn btn-success">Login</button>
+                       </div>
+                       <div class="mb-3">
+                       <!-- <a href="account.html"> <button type="button" class="btn btn-link">New To Footwear? Create an account</button></a> -->
+                       <a href="account.html">New To Footwear? Create an account</a>
+                           </div>
+
+                     </form>
+        
+            </form>
+                
+          </div>
+        </div>
+      </nav>
+
+<div class="container-fluid bg-primary py-2" style="border-top: 1px dotted white;">
+    <h5 class="text-center text-light"><span class="auto-type"></span></h5>
+
+</div>
+<!-- --------------------------------------------------------------- -->
+<div class="container mt-3">
+    <div class="row bg-secondary justify-content-center pt-2 text-light">
+        <div class="col-sm-2"><h6 class="text-center">PRODUCT</h6></div>
+        <div class="col-sm-2"><h6 class="text-center">PRODUCT NAME</h6></div>
+
+        <div class="col-sm-2"><h6 class="text-center">PRICE</h6></div>
+        <div class="col-sm-2"><h6 class="text-center">QUANTIIY</h6></div>
+        <div class="col-sm-2"><h6 class="text-center">TOTAL</h6></div>
+        <div class="col-sm-2"><h6 class="text-center">REMOVE</h6></div>
+    </div>
+    <div class="row bg-secondary justify-content-center pt-2 text-light">
+        <div class="col-sm-2"><img src="images/item-6.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-sm-2"><h6 class="text-center">MEN'S SHOES DQ</h6></div>
+
+        <div class="col-sm-2"><h6 class="text-center">$110.00</h6></div>
+        <div class="col-sm-2"><h6 class="text-center">2</h6></div>
+        <div class="col-sm-2"><h6 class="text-center">$220.00</h6></div>
+        <div class="col-sm-2"><h6 class="text-center">x</h6></div>
+    </div>
+
+    <div class="row bg-secondary justify-content-center pt-2 text-light">
+        <div class="col-sm-2"><img src="images/item-10.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-sm-2"><h6 class="text-center">WOMEN'S AEROWALK SHOES</h6></div>
+
+        <div class="col-sm-2"><h6 class="text-center">$100.00</h6></div>
+        <div class="col-sm-2"><h6 class="text-center">1</h6></div>
+        <div class="col-sm-2"><h6 class="text-center">$100.00</h6></div>
+        <div class="col-sm-2"><h6 class="text-center">x</h6></div>
+    </div>
+    <div class="row bg-secondary justify-content-center pt-2 text-light">
+        <div class="col-sm-2"><img src="images/item-13.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-sm-2"><h6 class="text-center">WOMEN'S NIKE SHOES
+        </h6></div>
+
+        <div class="col-sm-2"><h6 class="text-center">$130.00</h6></div>
+        <div class="col-sm-2"><h6 class="text-center">1</h6></div>
+        <div class="col-sm-2"><h6 class="text-center">$130.00</h6></div>
+        <div class="col-sm-2"><h6 class="text-center">x</h6></div>
+    </div>
+
+</div>
+<!-- ------------------------------------------------------------------- -->
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 input-group mb-3">
+            
+                <input type="text" class="form-control"
+                placeholder="Your Coupon Number" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn bg-success text-light" type="button" id="button-addon2">Apply Coupon</button>
+              </div>
+        </div>
+        <div class="col-sm-12 col-md-6 mb-3 bg-primary p-3 text-light">
+            <span class="fs-5">Subtotal:</span>
+            <span class="fs-5">$450.00</span>
+            <br>
+            <span class="fs-5">Delivery:</span>
+            <span class="fs-5">$0.00</span>
+            <br>
+            <span class="fs-5">Discount:</span>
+            <span class="fs-5">$40.00</span>
+            <hr class="text-light">
+
+<span class="fs-5">Total:</span>
+<span class="fs-5">$410.00</span>
+
+        </div>
+    </div>
+</div>
+<!-- --------------------------------------------------------------------------------- -->
+<div class="container mt-1">
+    <h3 class="text-center fs-2 text-secondary wow animate__animated animate__bounce">RELATED PRODUCTS</h3>
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3"><div class="card" style="width: 18rem;">
+  <img src="images/item-1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h6 class="text-center">WOMEN'S BOOTS SHOES MACA</h6>
+    <p class="card-text text-center">$130.00</p>
+  </div>
+</div></div>
+        <div class="col-sm-12 col-md-6 col-lg-3"><div class="card" style="width: 18rem;">
+  <img src="images/item-16.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h6 class="text-center">WOMEN'S BOOTS REGULAR</h6>
+    <p class="card-text text-center">$135.00</p>
+  </div>
+</div></div>
+        <div class="col-sm-12 col-md-6 col-lg-3"><div class="card" style="width: 18rem;">
+  <img src="images/item-14.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h6 class="text-center">WOMEN'S NIKE SHOES RUN</h6>
+    <p class="card-text text-center">$135.00</p>
+  </div>
+</div></div>
+        <div class="col-sm-12 col-md-6 col-lg-3"><div class="card" style="width: 18rem;">
+  <img src="images/item-3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h6 class="text-center">MEN'S TAJA COMMISSIONER
+    </h6>
+    <p class="card-text text-center">$120.00</p>
+  </div>
+</div></div>
+    </div>  
+</div>
+<!-- footer -->
+<div class="container-fluid bg-primary mt-5">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-lg-2 text-light"><div class="py-4"><h6>ABOUT FOOTWARE</h6><p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p><div class="fs-5"><i class="fa-brands fa-facebook-f px-2"></i><i class="fa-brands fa-twitter px-2"></i><i class="fa-brands fa-linkedin-in px-2"></i><i class="fa-brands fa-instagram px-2"></i></div></div></div>
+        <div class="col-sm-12 col-lg-2 text-light">
+            <div class="py-4"><h6>CUSTOMER CARE</h6>
+            <div class="list-group" style="background-color: transparent;">
+                <a href="contact.html" class="text-light py-1" style="text-decoration: none;">CONTACT</a>
+                <a href="#" class="text-light py-1" style="text-decoration: none;">RETURNS/EXCHANGE</a>
+                <a href="faq.html" class="text-light py-1" style="text-decoration: none;">FAQ</a>
+                <a href="#" class="text-light py-1" style="text-decoration: none;">WISHLIST</a>
+                <a href="#" class="text-light py-1" style="text-decoration: none;">CUSTOMER SERVICES</a>
+                <a href="#" class="text-light py-1" style="text-decoration: none;">SITE MAPS</a>
+              </div>
+        </div>
+        </div>
+        <div class="col-sm-12 col-lg-2 text-light">
+            <div class="py-4"><h6>INFORMATION</h6>
+            <div class="list-group" style="background-color: transparent;">
+                <a href="about.html" class="text-light py-1" style="text-decoration: none;">ABOUT US</a>
+                <a href="#" class="text-light py-1" style="text-decoration: none;">DELIVERY INFORMATION</a>
+                <a href="privacy.html" class="text-light py-1" style="text-decoration: none;">PRIVACY POLICY</a>
+                <a href="#" class="text-light py-1" style="text-decoration: none;">SUPPORT</a>
+                <a href="#" class="text-light py-1" style="text-decoration: none;">ORDER TRACKING</a>
+              </div>
+        </div>
+    </div>
+        <div class="col-sm-12 col-lg-2">
+            <div class="py-4"><h6 class="text-light">NEWS</h6>
+                <div class="list-group" style="background-color: transparent;">
+                    <a href="blog.html" class="text-light py-1" style="text-decoration: none;">BLOG</a>
+                    <a href="news.html" class="text-light py-1" style="text-decoration: none;">PRESS</a>
+                    <a href="#" class="text-light py-1" style="text-decoration: none;">EXHIBITIONS</a>
+                  </div>
+            </div>
+    
+
+        </div>
+        <div class="col-sm-12 col-lg-2">
+            <div class="py-4"><h6 class="text-light">CONTACT INFORMATION</h6>
+                <div class="list-group" style="background-color: transparent;">
+                    <a style="text-decoration: none;" class="text-light py-1">291 SOUTH 21TH STREET,</a>
+                    <a style="text-decoration: none;" class="text-light py-1">SUITE 721 NEW YORK NY 10016</a>
+                    <a href="#" class="text-light py-1" style="text-decoration: none;">INFO@YOURSITE.COM</a>
+                    <a href="#" class="text-light py-1" style="text-decoration: none;">YOURSITE.COM</a>
+                  </div>
+            </div>
+    
+
+
+        </div>
+        <div class="col-sm-12">
+            <p class="text-center text-light">Copyright &copy;2023 ALL RIGHTS RESERVED | Developed by Kashyap Joshi</p>
+        </div>
+    </div>
+</div>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="./js/jquery.counterup.min.js"></script>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed=new Typed(".auto-type",{
+      strings:["<strong>OUR BIGGEST SALE YET 50% OFF ALL SUMMER SHOES</strong>","<strong>25% OFF ! USE CODE:SUMMER SALE</strong>"],
+      typeSpeed:30,
+      backSpeed:30,
+      fadeOut:true,
+      loop:true
+    });
+  </script>
+   <script src="js/lightbox.js"></script>
+   <script>
+     lightbox.option({
+       'resizeDuration': 200,
+       'wrapAround': true,
+       'fadeDuration':100,
+       'imageFadeDuration':2000
+     })
+ </script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+  
+</body>
+
+</html>

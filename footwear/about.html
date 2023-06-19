@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Footwear</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<link rel="stylesheet" href="css/animate.css">
+
+<script>
+    jQuery(document).ready(function ($) {
+      $(".counter").counterUp({
+        delay: 10,
+        time: 1000,
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="index.html" style="letter-spacing: 1.5px;font-family: 'Pacifico', cursive;">Footwear</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="index.html" style="font-family: 'Righteous', cursive;">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="men.html" style="font-family: 'Righteous', cursive;">MEN</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="women.html" style="font-family: 'Righteous', cursive;">WOMEN</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="about.html" style="font-family: 'Righteous', cursive;">ABOUT</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="contact.html" style="font-family: 'Righteous', cursive;">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="cart.html" style="font-family: 'Righteous', cursive;"><i class="fa-solid fa-cart-shopping fs-5"></i> CART</a>
+                
+            </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-1 w-100" type="search" placeholder="Search for products" aria-label="Search">
+                <!-- <button class="btn btn-outline-success me-1" type="submit">Search</button> -->
+               <button
+               type="button"
+               class="btn btn-danger"
+               data-bs-toggle="modal"
+
+               
+               data-bs-target="#exampleModal"
+               data-bs-placement="bottom"
+               data-bs-title="Please Login To Buy Item"
+             >
+               Login
+             </button>
+
+             <!-- Modal -->
+             <div
+               class="modal fade"
+               id="exampleModal"
+               tabindex="-1"
+               aria-labelledby="exampleModalLabel"
+               aria-hidden="true"
+             >
+               <div class="modal-dialog">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h1
+                       class="modal-title fs-5 ms-auto"
+                       id="exampleModalLabel"
+                     >
+                       Login Here
+                     </h1>
+                     <button
+                       type="button"
+                       class="btn-close"
+                       data-bs-dismiss="modal"
+                       aria-label="Close"
+                     ></button>
+                   </div>
+                   <div class="modal-body">
+                     <form>
+                       <div class="mb-3">
+                         <label for="exampleInputEmail1" class="form-label"
+                           >Email address</label
+                         >
+                         <input
+                           type="email"
+                           class="form-control"
+                           id="exampleInputEmail1"
+                           aria-describedby="emailHelp"
+                         />
+                       </div>
+                       <div class="mb-3">
+                         <label
+                           for="exampleInputPassword1"
+                           class="form-label"
+                           >Password</label
+                         >
+                         <input
+                           type="password"
+                           class="form-control"
+                           id="exampleInputPassword1"
+                         />
+                       </div>
+                       <div class="mb-3">
+                        <button type="button" class="btn btn-success">Login</button>
+                       </div>
+                       <div class="mb-3">
+                       <!-- <a href="account.html"> <button type="button" class="btn btn-link">New To Footwear? Create an account</button></a> -->
+                       <a href="account.html">New To Footwear? Create an account</a>
+                           </div>
+
+                     </form>
+        
+            </form>
+                
+          </div>
+        </div>
+      </nav>
+
+      <!-- ------------------------------------------------------------------------------------- -->
+      <div class="container-fluid bg-primary py-2" style="border-top: 1px dotted white;">
+        <h5 class="text-center text-light"><span class="auto-type"></span></h5>
+    
+    </div>
+    <!-- ----------------------------------------------------------------------------------------- -->
+    <!-- ---------------------------------------------------------------------------------------------- -->
+      <div class="container">     
+        <!-- <h1 class="text-center text-warning">THE FOOTWEAR STORY</h1>
+        <h5 class="text-center text-danger">LAUNCHED IN 2015</h5>
+        <p class="text-center">Footwear is World's leading e-commerce marketplace with over 100 products across diffrent categories</p> -->
+        <div class="row justify-content-center">
+            <div class="col-sm-5"><h4 class="text-secondary">Footwear the leading eCommerce Store around the Globe</h4><p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+            <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+            </div>
+            <div class="col-sm-3"><img src="images/running-shoe-321199_640.jpg" class="img-fluid" alt=""></div>
+        </div>
+
+    </div>
+    <!-- ------------------------------------------------------------------------------------- -->
+    <div class="container">
+        <h1 class="text-center text-secondary">Our Team</h1>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-6 col-lg-3"><img src="images/pexels-edmond-dantès-4342400.jpg" class="img-fluid" alt=""><h4 class="text-center">John Doe</h4><h6 class="text-center">Founder/CEO</h6></div>
+            <div class="col-sm-12 col-md-6 col-lg-3"><img src="images/beautiful-2910260_640.jpg" class="img-fluid" alt=""><h4 class="text-center">Annie Smith</h4><h6 class="text-center">Founder/CEO</h6></div><div class="col-sm-12 col-md-6 col-lg-3"><img src="images/pexels-andrea-piacquadio-712521.jpg" class="img-fluid" alt=""><h4 class="text-center">Charlote Anderson</h4><h6 class="text-center">Founder/CEO</h6></div><div class="col-sm-12 col-md-6 col-lg-3"><img src="images/model-2911329_640.jpg" class="img-fluid" alt=""><h4 class="text-center">David Jonathan</h4><h6 class="text-center">Founder/CEO</h6></div>
+            <!-- <div class="col-sm-12 col-md-6 col-lg-3"><img src="images/team2.jpg" class="img-fluid" alt=""><h4 class="text-center">Annie Smith</h4><h6 class="text-center">Founder/CEO</h6></div>
+            <div class="col-sm-12 col-md-6 col-lg-3"><img src="images/team3.jpg" class="img-fluid" alt=""><h4 class="text-center">Charlote Anderson</h4><h6 class="text-center">Founder/CEO</h6></div>
+            <div class="col-sm-12 col-md-6 col-lg-3"><img src="images/team4.jpg" class="img-fluid" alt=""><h4 class="text-center">David Jonathan</h4><h6 class="text-center">Founder/CEO</h6></div> -->
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <div class="container-fluid bg-primary">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-3">
+                <p class="text-center mt-3"><i class="text-light fa-regular fa-face-smile fs-3"></i></p>
+                <h1 class="counter text-center text-light">10000</h1>
+                <h5 class="text-center text-light">Happy Customers</h5>
+            
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <p class="text-center mt-3"><i class="text-light fa-regular fa-user fs-3"></i></p>
+                <h1 class="counter text-center text-light">3000</h1>
+                <h5 class="text-center text-light">Active Members</h5>
+            
+            
+            
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <p class="text-center mt-3"><i class="text-light fa-regular fa-bookmark fs-3"></i></p>
+                <h1 class="counter text-center text-light">50</h1>
+                <h5 class="text-center text-light">Verified Ads</h5>
+            
+            
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------------------------- -->
+<!-- footer -->
+<div class="container-fluid bg-primary mt-5">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-lg-2 text-light"><div class="py-4"><h6>ABOUT FOOTWARE</h6><p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p><div class="fs-5"><i class="fa-brands fa-facebook-f px-2"></i><i class="fa-brands fa-twitter px-2"></i><i class="fa-brands fa-linkedin-in px-2"></i><i class="fa-brands fa-instagram px-2"></i></div></div></div>
+        <div class="col-sm-12 col-lg-2 text-light">
+            <div class="py-4"><h6>CUSTOMER CARE</h6>
+            <div class="list-group" style="background-color: transparent;">
+                <a href="contact.html" class="text-light py-1" style="text-decoration: none;">CONTACT</a>
+                <a href="#" class="text-light py-1" style="text-decoration: none;">RETURNS/EXCHANGE</a>
+                <a href="faq.html" class="text-light py-1" style="text-decoration: none;">FAQ</a>
+                <a href="#" class="text-light py-1" style="text-decoration: none;">WISHLIST</a>
+                <a href="#" class="text-light py-1" style="text-decoration: none;">CUSTOMER SERVICES</a>
+                <a href="#" class="text-light py-1" style="text-decoration: none;">SITE MAPS</a>
+              </div>
+        </div>
+        </div>
+        <div class="col-sm-12 col-lg-2 text-light">
+            <div class="py-4"><h6>INFORMATION</h6>
+            <div class="list-group" style="background-color: transparent;">
+<a href="about.html" class="text-light py-1" style="text-decoration: none;">ABOUT US</a>
+                <a href="#" class="text-light py-1" style="text-decoration: none;">DELIVERY INFORMATION</a>
+                <a href="privacy.html" class="text-light py-1" style="text-decoration: none;">PRIVACY POLICY</a>
+                <a href="#" class="text-light py-1" style="text-decoration: none;">SUPPORT</a>
+                <a href="#" class="text-light py-1" style="text-decoration: none;">ORDER TRACKING</a>
+              </div>
+        </div>
+    </div>
+        <div class="col-sm-12 col-lg-2">
+            <div class="py-4"><h6 class="text-light">NEWS</h6>
+                <div class="list-group" style="background-color: transparent;">
+                    <a href="blog.html" class="text-light py-1" style="text-decoration: none;">BLOG</a>
+                    <a href="news.html" class="text-light py-1" style="text-decoration: none;">PRESS</a>
+                    <a href="#" class="text-light py-1" style="text-decoration: none;">EXHIBITIONS</a>
+                  </div>
+            </div>
+    
+
+        </div>
+        <div class="col-sm-12 col-lg-2">
+            <div class="py-4"><h6 class="text-light">CONTACT INFORMATION</h6>
+                <div class="list-group" style="background-color: transparent;">
+                    <a style="text-decoration: none;" class="text-light py-1">291 SOUTH 21TH STREET,</a>
+                    <a style="text-decoration: none;" class="text-light py-1">SUITE 721 NEW YORK NY 10016</a>
+                    <a href="#" class="text-light py-1" style="text-decoration: none;">INFO@YOURSITE.COM</a>
+                    <a href="#" class="text-light py-1" style="text-decoration: none;">YOURSITE.COM</a>
+                  </div>
+            </div>
+    
+
+
+        </div>
+        <div class="col-sm-12">
+            <p class="text-center text-light">Copyright &copy;2023 ALL RIGHTS RESERVED | Developed by Kashyap Joshi</p>
+        </div>
+    </div>
+</div>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="./js/jquery.counterup.min.js"></script>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed=new Typed(".auto-type",{
+        strings:["<strong>OUR BIGGEST SALE YET 50% OFF ALL SUMMER SHOES</strong>","<strong>25% OFF ! USE CODE:SUMMER SALE</strong>"],
+        typeSpeed:30,
+        backSpeed:30,
+        fadeOut:true,
+        loop:true
+      });
+    </script>
+   </script>
+   <script src="js/wow.min.js"></script>
+   <script>
+   new WOW().init();
+   </script>
+
+</body>
+
+</html>
